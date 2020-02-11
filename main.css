@@ -1,0 +1,415 @@
+body {
+  font-family: Roboto, sans-serif;
+  margin: auto;
+}
+
+header {
+  background-color: white;
+  padding-left: 0;
+  position: fixed;
+  height: 72px;
+  z-index: 3;
+  width: 100%;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo-header {
+  padding-left: 80px;
+  padding-top: 30px;
+}
+
+.login-button {
+  position: absolute;
+  top: 16px;
+  right: 143px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  background-color: white;
+  cursor: pointer;
+}
+
+.basket {
+  position: absolute;
+  right: 87px;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+  color: #979797;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #979797;
+}
+
+.content {
+  margin: auto;
+  padding-top: 130px;
+}
+
+.h1 {
+  color: #1d1d1d;
+  font-size: 22px;
+  padding-top: 40px;
+}
+
+.name {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  color: #1d1d1d;
+}
+
+.assortiment {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: #626262;
+}
+
+.time {
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  color: #1d1d1d;
+}
+
+.card {
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.card:hover {
+  background: rgba(128, 128, 128, 0.2);
+  transition: all 0.9s ease;
+}
+
+footer {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 56px;
+  height: 552px;
+  background: #262626;
+  color: #ffffff;
+}
+
+.line {
+  border-bottom: 1px solid #979797;
+  padding-top: 40px;
+}
+
+.row_footer {
+  padding-top: 32px;
+}
+
+.logotip {
+  padding-top: 32px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  font-size: 24px;
+  width: 92px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 38px;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.google,
+.apple {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.header-photo {
+  background: url(Images/photo.png) no-repeat;
+  background-size: 100%;
+  height: 364px;
+}
+
+.pushkin-photo {
+  padding-top: 72px;
+}
+
+.visitka {
+  padding-top: 0;
+  padding-left: 38px;
+  padding-right: 28px;
+  padding-bottom: 38px;
+  position: absolute;
+  top: 152px;
+  background: white;
+}
+
+.visitka-name {
+  font-family: Roboto, sans-serif;
+  font-size: 36px;
+  color: #1d1d1d;
+}
+
+.visitka-assortiment {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: #626262;
+}
+
+.visitka-time {
+  margin-left: 100px;
+  padding: 8px 16px;
+  border: 1px solid #262626;
+  border-radius: 16px;
+  background: #262626;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.food-card img {
+  float: right;
+}
+
+.food-card .price {
+  color: #1d1d1d;
+}
+
+.food-card {
+  height: 160px;
+  position: relative;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  margin-bottom: 49px;
+  padding-left: 16px;
+}
+
+.food-card:hover {
+  background: rgba(128, 128, 128, 0.2);
+  transition: all 0.9s ease;
+}
+
+.price {
+  position: absolute;
+  bottom: 0;
+  left: 5;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.menu {
+  margin-bottom: 31px;
+}
+
+.title {
+  font-family: Roboto, sans-serif;
+  font-size: 22px;
+}
+
+.gohome {
+  position: fixed;
+  right: 16px;
+  bottom: 24px;
+  z-index: 2;
+}
+
+.list {
+  height: 50px;
+  padding-top: 32px;
+  border-bottom: 1px solid #757575;
+}
+
+.list a {
+  text-decoration: none;
+  color: #626262;
+}
+
+.list span {
+  padding-right: 40px;
+}
+
+.menu a {
+  text-decoration: none;
+  outline: none;
+}
+
+.content a {
+  text-decoration: none;
+  outline: none;
+}
+
+@media screen and (max-width: 1123px) {
+  .basket {
+    position: absolute;
+    right: 8px;
+  }
+
+  .logo-header {
+    padding-left: 8px;
+  }
+
+  .login-button {
+    position: absolute;
+    right: 64px;
+  }
+
+  .header-photo {
+    background: url(Images/photo1.png) no-repeat;
+    background-size: 100%;
+    height: 364px;
+  }
+
+  .food-card {
+    margin-bottom: 32px;
+    padding-left: 24px;
+  }
+
+  .food-card img {
+    width: 200px;
+    height: 160px;
+  }
+
+  .menu {
+    margin-bottom: 16px;
+  }
+
+  footer {
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .basket {
+    display: none;
+  }
+
+  .login-button {
+    position: absolute;
+    right: 16px;
+  }
+
+  .container {
+    margin: auto;
+  }
+
+  .header-photo {
+    background: url(Images/photo3.png) no-repeat;
+    background-size: 100%;
+    height: 255px;
+  }
+
+  .visitka {
+    padding: 0 49px;
+    padding-bottom: 24px;
+    top: 203px;
+    left: 8px;
+    right: 8px;
+    box-shadow: 0 1px 10px 0 #979797;
+  }
+
+  .visitka-name {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    color: #1d1d1d;
+    text-align: center;
+  }
+
+  .visitka-assortiment {
+    display: block;
+    text-align: center;
+  }
+
+  .visitka-time {
+    display: block;
+    margin-left: 0;
+    width: 98px;
+    margin: auto;
+    margin-top: 16px;
+    text-align: center;
+  }
+
+  .food-card {
+    height: 102px;
+    padding-left: 0;
+    margin-bottom: 16px;
+    border-top: none;
+    border-left: none;
+  }
+
+  .food-card img {
+    width: 102px;
+    height: 102px;
+  }
+
+  .food-card .name {
+    font-size: 14px;
+  }
+
+  .menu {
+    margin-bottom: 24px;
+  }
+
+  footer {
+    height: 930px;
+  }
+
+  footer ul {
+    padding-left: 0;
+  }
+
+  .gohome img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .list {
+    display: none;
+  }
+
+  .title {
+    padding-top: 112px;
+    text-align: center;
+  }
+
+  .smallline {
+    border-bottom: 1px solid #757575;
+    width: 50px;
+    margin: auto;
+    margin-bottom: 43px;
+  }
+
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+  }
+
+  .copyright span {
+    padding-bottom: 25px;
+  }
+}
